@@ -1,0 +1,25 @@
+table{
+  
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.4rem;
+  background-color:  rgba(252, 253, 242, 0.89);
+}
+td{
+  padding: 3px;
+}
+button{
+  /* display: flex; */
+  width: 100%;
+  padding: 1.5em;
+  border: 2px solid rgb(74, 104, 202);
+  border-radius: 5px;
+  background-color: rgba(252, 253, 242, 0.89);
+  box-shadow: inset -0.1em -0.1em 0.6em rgb(197, 197, 197);
+  font-weight: bold;
+}
+.display{
+  text-align: right;
+  background-color: #000;
+  color: rgb(75, 219, 75);
+}
