@@ -19,18 +19,47 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.css" />
     <title>Histogram</title>
   </head>
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-md-10 offset-md-1">
+        <div class="col-md-10 offset-md-1 mt-3">
+          
           <h1 align="center">Histogramme .</h1>
-
-          <div id="container" class="mt-5"></div>
+          
+          <div id="container" class="mt-3"></div>
         </div>
       </div>
+      <hr>
+      <table class="table table-striped mt-5">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">lindi</th>
+            <th scope="col">mardi</th>
+            <th scope="col">mercredi</th>
+            <th scope="col">jeudi</th>
+            <th scope="col">vendredi</th>
+            <th scope="col">samedi</th>
+            <th scope="col">dimanch</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">%</th>
+            <td><input onchange='changeData()'
+              type="text" name="lindi" size="4"  ></td>
+            <td><input type="text" name="mardi" size="4" ></td>
+            <td><input type="text" name="mercredi" size="4" ></td>
+            <td><input type="text" name="jeudi" size="4" ></td>
+            <td><input type="text" name="vendredi" size="4" ></td>
+            <td><input type="text" name="samedi" size="4" ></td>
+            <td><input type="text" name="dimanch" size="4" ></td>
+          </tr>
+          </tbody>
+      </table>
     </div>
 
     <script type="text/javascript" src="./index.js"></script>
